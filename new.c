@@ -2,7 +2,8 @@
 void main()
 {
     char name[15];
-   
-    printf("hello world");
+    printf("enter ur name=");
+    scanf("%s",name);
+    printf("hello world %s",name);
     
 }
